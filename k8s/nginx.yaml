@@ -1,0 +1,11 @@
+# Minimal nginx pod;
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx-yaml
+  name: nginx-yaml
+spec:
+  containers:
+  - image: nginx
+    name: nginx-yaml
