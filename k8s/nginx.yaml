@@ -4,6 +4,7 @@ kind: Pod
 metadata:
   labels:
     run: nginx-yaml
+    another: label
   name: nginx-yaml
 spec:
   containers:
